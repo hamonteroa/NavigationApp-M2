@@ -14,6 +14,11 @@
 		41983FEF1E1E9A7F00958771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41983FED1E1E9A7F00958771 /* LaunchScreen.storyboard */; };
 		41983FFA1E1E9A7F00958771 /* NavigationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41983FF91E1E9A7F00958771 /* NavigationAppTests.swift */; };
 		419840051E1E9A7F00958771 /* NavigationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419840041E1E9A7F00958771 /* NavigationAppUITests.swift */; };
+		419840131E1EADBF00958771 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419840121E1EADBF00958771 /* MenuViewController.swift */; };
+		419840151E1EAFF500958771 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419840141E1EAFF500958771 /* BaseViewController.swift */; };
+		419840171E1EDE8400958771 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419840161E1EDE8400958771 /* SecondViewController.swift */; };
+		41C5D62D1E1FE55E004AED05 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D62C1E1FE55E004AED05 /* SliderViewController.swift */; };
+		41C5D62F1E1FF86D004AED05 /* TabBarExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D62E1E1FF86D004AED05 /* TabBarExampleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		419840001E1E9A7F00958771 /* NavigationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		419840041E1E9A7F00958771 /* NavigationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAppUITests.swift; sourceTree = "<group>"; };
 		419840061E1E9A7F00958771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419840121E1EADBF00958771 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		419840141E1EAFF500958771 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		419840161E1EDE8400958771 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41C5D62C1E1FE55E004AED05 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		41C5D62E1E1FF86D004AED05 /* TabBarExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarExampleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				41983FEB1E1E9A7F00958771 /* Assets.xcassets */,
 				41983FED1E1E9A7F00958771 /* LaunchScreen.storyboard */,
 				41983FF01E1E9A7F00958771 /* Info.plist */,
+				419840121E1EADBF00958771 /* MenuViewController.swift */,
+				419840141E1EAFF500958771 /* BaseViewController.swift */,
+				419840161E1EDE8400958771 /* SecondViewController.swift */,
+				41C5D62C1E1FE55E004AED05 /* SliderViewController.swift */,
+				41C5D62E1E1FF86D004AED05 /* TabBarExampleController.swift */,
 			);
 			path = NavigationApp;
 			sourceTree = "<group>";
@@ -263,6 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41983FE71E1E9A7F00958771 /* ViewController.swift in Sources */,
+				419840151E1EAFF500958771 /* BaseViewController.swift in Sources */,
+				419840131E1EADBF00958771 /* MenuViewController.swift in Sources */,
+				41C5D62F1E1FF86D004AED05 /* TabBarExampleController.swift in Sources */,
+				41C5D62D1E1FE55E004AED05 /* SliderViewController.swift in Sources */,
+				419840171E1EDE8400958771 /* SecondViewController.swift in Sources */,
 				41983FE51E1E9A7F00958771 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +534,7 @@
 				4198400B1E1E9A7F00958771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4198400C1E1E9A7F00958771 /* Build configuration list for PBXNativeTarget "NavigationAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +543,7 @@
 				4198400E1E1E9A7F00958771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4198400F1E1E9A7F00958771 /* Build configuration list for PBXNativeTarget "NavigationAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +552,7 @@
 				419840111E1E9A7F00958771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
